@@ -1,9 +1,9 @@
 {
-	"name": "website",
+	"name": "svelte-template-tailwind-ts",
 	"version": "0.0.1",
 	"type": "module",
 	"scripts": {
-		"dev": "svelte-kit dev",
+		"dev": "svelte-kit dev --host",
 		"build": "svelte-kit build",
 		"package": "svelte-kit package",
 		"preview": "svelte-kit preview",
@@ -43,6 +43,7 @@
 		"postcss": "8.4.6",
 		"prettier": "2.5.1",
 		"prettier-plugin-svelte": "2.6.0",
+		"prettier-plugin-tailwindcss": "0.1.5",
 		"svelte": "3.46.4",
 		"svelte-check": "2.4.2",
 		"svelte-jester": "2.3.1",
